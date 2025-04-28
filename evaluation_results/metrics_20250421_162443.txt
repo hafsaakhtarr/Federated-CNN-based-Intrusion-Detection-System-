@@ -1,0 +1,23 @@
+Evaluation Results - 20250421_162443
+==================================================
+
+Test Loss: 1345.5864
+Test Accuracy: 0.4469
+
+Classification Report:
+                precision    recall  f1-score   support
+
+      Analysis       0.00      0.00      0.00       677
+      Backdoor       0.00      0.00      0.00       583
+           DoS       0.00      0.00      0.00      4089
+      Exploits       0.05      0.00      0.00     11132
+       Fuzzers       0.03      0.00      0.00      6062
+       Generic       0.02      0.00      0.00     18871
+        Normal       0.45      0.99      0.62     37000
+Reconnaissance       0.00      0.00      0.00      3496
+     Shellcode       0.00      0.00      0.00       378
+         Worms       0.00      0.00      0.00        44
+
+      accuracy                           0.45     82332
+     macro avg       0.05      0.10      0.06     82332
+  weighted avg       0.22      0.45      0.28     82332
